@@ -26,7 +26,7 @@ public class MovieRunnerSimilarRatings {
                 MovieDatabase.getTitle(each.getItem())); 
             }
         }
-        System.out.println("found " + moviesFound + " movies");
+        //System.out.println("found " + moviesFound + " movies");
     }
 
     public void printAverageRatingsByYearAfterAndGenre() {
@@ -68,7 +68,7 @@ public class MovieRunnerSimilarRatings {
             count++;
             System.out.println(rat + " " + MovieDatabase.getTitle(rat.getItem()));
         }        
-        System.out.println("# of titles: " + count);
+        //System.out.println("# of titles: " + count);
     }
     
     public void printSimilarRatingsByGenre() {
@@ -90,7 +90,7 @@ public class MovieRunnerSimilarRatings {
             System.out.println(rat + " " + MovieDatabase.getTitle(
                 rat.getItem()) + " " + MovieDatabase.getGenres(rat.getItem()));
         } 
-        System.out.println("# of titles: " + count);
+        //System.out.println("# of titles: " + count);
     }
     
     public void printSimilarRatingsByDirector() {
@@ -114,7 +114,7 @@ public class MovieRunnerSimilarRatings {
                     MovieDatabase.getTitle(rat.getItem()) + " " + 
                     MovieDatabase.getGenres(rat.getItem()));
         } 
-        System.out.println("# of titles: " + count);
+        //System.out.println("# of titles: " + count);
     }
     
     public void printSimilarRatingsByGenreAndMinutes() {
@@ -143,7 +143,7 @@ public class MovieRunnerSimilarRatings {
             System.out.println(rat + " " + MovieDatabase.getTitle(
                 rat.getItem()) + " " + MovieDatabase.getGenres(rat.getItem()));
         } 
-        System.out.println("# of titles: " + count);
+        //System.out.println("# of titles: " + count);
     }
     
     public void printSimilarRatingsByYearAfterAndMinutes() {
@@ -172,6 +172,6 @@ public class MovieRunnerSimilarRatings {
             System.out.println(rat + " " + MovieDatabase.getTitle(
                 rat.getItem()) + " " + MovieDatabase.getGenres(rat.getItem()));
         } 
-        System.out.println("# of titles: " + count);
+        //System.out.println("# of titles: " + count);
     }
 }
